@@ -7,7 +7,8 @@
     "local": "npm run docs:generate && tsx watch --env-file=.env src/index.ts",
     "build": "npm run docs:generate && tsc",
     "start": "node dist/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "vitest",
+    "test:run": "vitest run",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "docs:generate": "node scripts/generate-swagger.js"
@@ -31,6 +32,7 @@
     "@types/express": "^5.0.3",
     "@types/node": "^24.2.0",
     "@types/swagger-ui-express": "^4.1.8",
+    "@vitest/ui": "^3.2.4",
     "eslint": "^9.32.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4",
@@ -39,6 +41,7 @@
     "ts-node": "^10.9.2",
     "tsx": "^4.20.3",
     "typescript": "^5.9.2",
-    "typescript-eslint": "^8.39.0"
+    "typescript-eslint": "^8.39.0",
+    "vitest": "^3.2.4"
   }
 }
