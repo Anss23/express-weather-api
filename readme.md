@@ -22,6 +22,10 @@ To run the API and view endpoints, do the following:
 - API will start on default port 3000 if its left unchanged in the `.env` file
 - To view api docs, go to `localhost:3000/api/docs`
 
+In case of any incompatibility issues, please not that development is done on following versions:
+
+- Node.js: v20.17.0
+- tsc:  v5.9.2
 
 ## Architecture & Design
 
