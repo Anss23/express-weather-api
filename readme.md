@@ -1,0 +1,5 @@
+- Express api structure, thoughts?
+- Rate limiting, token bucket, why it will not prevent against ddos
+- Exception middleware
+- Talk about service availability, how third party integrations should be defensive programming
+- Testing
