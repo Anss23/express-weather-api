@@ -13,6 +13,8 @@
     "outDir": "./dist",
     "rootDir": "./src"
   },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "vitest.config.ts"],
   "ts-node": {
     "esm": true
   }
